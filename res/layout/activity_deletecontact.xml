@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#CCE1A1"
+    android:clickable="true"
+    android:gravity="bottom|center_vertical|fill"
+    android:orientation="vertical" >
+
+    <AutoCompleteTextView
+        android:id="@+id/deleteSearchView"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3sp"
+        android:layout_marginLeft="2dp"
+        android:ems="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:text="@string/search"
+        android:textColor="#0000AB"
+        android:textSize="17sp" >
+
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <ExpandableListView
+        android:id="@+id/deleteContactsView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="3dp"
+        android:layout_weight="0.47"
+        android:textColor="#CE945D"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="86sp"
+        android:layout_marginTop="5sp"
+        android:background="#A2C3E4"
+        android:clickable="true"
+        android:text="@string/deleteContacts"
+        android:textColor="#DA3259"
+        android:textSize="29sp" />
+
+</LinearLayout>

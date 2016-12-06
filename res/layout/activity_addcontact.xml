@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:gravity="bottom|center_vertical|fill"
+    android:orientation="vertical" 
+    android:background="#E1E1A1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3sp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/displayName"
+            android:layout_width="92dp"
+            android:layout_height="68dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="7sp"
+            android:text="@string/displayName"
+            android:textColor="#0000AB"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/contactsName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:layout_marginTop="36dp"
+            android:inputType="text"
+            android:textColor="#DA3259"
+            android:textSize="27sp" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/displayNumber"
+            android:layout_width="102dp"
+            android:layout_height="66dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="7sp"
+            android:text="@string/displayNumber"
+            android:textColor="#0000AB"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:layout_marginTop="36dp"
+            android:inputType="phone"
+            android:textColor="#DA3259"
+            android:textSize="27sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5sp"
+        android:layout_marginTop="23sp"
+        android:layout_weight="1.74"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/emailID"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginLeft="7sp"
+            android:text="@string/email"
+            android:textColor="#0000AB"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/emailIdText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="1"
+            android:inputType="textEmailAddress"
+            android:textColor="#DA3259"
+            android:textSize="27sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginBottom="5sp"
+        android:layout_marginTop="5sp"
+        android:layout_weight="10.76"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/callButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="86sp"
+            android:layout_marginTop="27sp"
+            android:background="#A2C3E4"
+            android:text="@string/addContact"
+            android:textColor="#DA3259"
+            android:clickable="true"
+            android:textSize="29sp" />
+    </LinearLayout>
+
+</LinearLayout>

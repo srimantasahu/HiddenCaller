@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="41dip"
+    android:gravity="right"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/parent"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_weight="0.95"
+        android:layout_marginRight="2sp"
+        android:background="#6FB08B"
+        android:textColor="#1E524D"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+   <!--  <CheckBox
+        android:id="@+id/deleteCheckBoxGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:background="#6FB08B"
+        android:gravity="center_vertical"
+        android:padding="1dp" >
+    </CheckBox> -->  
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="appName">Hidden Caller</string>
+    <string name="search">Search Contact</string>
+    <string name="black">#000000</string>
+    <string name="expandChildBackground ">#FFAFABAB</string>
+    <string name="expandGroupBackground">#FF7C7C7C</string>
+    <string name="dial">Dial</string>
+    <string name="call">Call</string>
+    <string name="msg">SMS</string>
+    <string name="displayName">Display Name</string>
+    <string name="displayNumber">Phone Number</string>
+    <string name="email">Email ID</string>
+    <string name="emailId">Delete Contacts</string>
+    <string name="addContact">Add Contact</string>
+    <string name="deleteContacts">Delete Contacts</string>
+    <string name="addContactLabel">Add a Contact</string>
+    <string name="deleteContactLabel">Delete Contacts</string>
+
+</resources>
